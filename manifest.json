@@ -14,5 +14,12 @@
  "hide": [],
  "remove": [],
  "audio": {},
- "notice": null
+ "notice": null,
+ "private": [
+  "extra_04",
+  "extra_02",
+  "extra_11",
+  "more_01"
+ ],
+ "owner": "d6df032ccce8ed2d72c3529c2aeabe91f9e138d4ac2376eb5f6be6da869e381d"
 }
