@@ -4,3 +4,4 @@ arabic|تعليم اللغة العربية|arabic-app|ios-latest|Arabic-ipad.zi
 english|تعليم الإنجليزية|english-app|ios-latest|English-ipad.zip|cap|ios/App/App.xcworkspace|App|App.app|com.munib.englisharabicgrammar|latest|English-mac.dmg
 notes|دفتر منيب|munib-notes|ios-latest|Daftar-ipad.zip|cap|ios/App/App.xcworkspace|App|App.app|com.munib.daftar|latest|*.dmg
 newmuslim|دليل المسلم الجديد|new-muslim-guide|app-latest|NewMuslimGuide-ipad-xcode.zip|xcodegen|ios/NewMuslimGuide.xcodeproj|NewMuslimGuide|NewMuslimGuide.app|com.abdulhasib.newmuslim|app-latest|NewMuslimGuide-mac.dmg
+fatawa|الفتاوى الميسّرة|fatawa-app|app-latest|FatawaMuyassara-ipad-xcode.zip|xcodegen|ios/FatawaMuyassara.xcodeproj|FatawaMuyassara|FatawaMuyassara.app|com.abdulhasib.fatawa|app-latest|FatawaMuyassara-mac.dmg
