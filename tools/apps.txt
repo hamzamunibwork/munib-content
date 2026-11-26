@@ -1,0 +1,5 @@
+# key|الاسم|المستودع|وسم الآيباد|ملف الآيباد|نوع المشروع|المشروع|المخطط|التطبيق المبني|معرّف التطبيق|وسم الماك|ملف الماك
+library|مكتبة عبد الحسيب منيب|munib-library|app-latest|MunibLibrary-ipad-xcode.zip|xcodegen|ios/MunibLibrary.xcodeproj|MunibLibrary|MunibLibrary.app|com.abdulhasib.library|app-latest|MunibLibrary-mac.dmg
+arabic|تعليم اللغة العربية|arabic-app|ios-latest|Arabic-ipad.zip|cap|ios/App/App.xcworkspace|App|App.app|com.munib.arabicgrammar|latest|Arabic-mac.dmg
+english|تعليم الإنجليزية|english-app|ios-latest|English-ipad.zip|cap|ios/App/App.xcworkspace|App|App.app|com.munib.englisharabicgrammar|latest|English-mac.dmg
+notes|دفتر المؤلف|munib-notes|ios-latest|Daftar-ipad.zip|cap|ios/App/App.xcworkspace|App|App.app|com.munib.daftar|latest|*.dmg

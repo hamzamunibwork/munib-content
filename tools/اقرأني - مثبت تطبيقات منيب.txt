@@ -1,0 +1,22 @@
+مثبّت تطبيقات منيب (على الماك)
+==============================
+
+مرة واحدة فقط: افتح Terminal والصق هذا السطر ثم Enter:
+  curl -fsSL https://raw.githubusercontent.com/hamzamunibwork/munib-content/main/tools/install.sh | bash -s setup
+فيُنشأ في Applications برنامج «Munib Installer». اسحبه إلى الـDock.
+
+بعد ذلك: افتح «Munib Installer»، واختر التطبيق، ثم «على الآيباد / الآيفون» أو «على هذا الماك».
+- للآيباد والآيفون: صِل الجهاز بالكابل وافتح قفله قبل الضغط.
+- أول مرة فقط: يطلب تسجيل الدخول إلى GitHub (لأن مستودعات تطبيقاتك خاصة)، ويطلب كلمة سر الماك للتوقيع (اضغط Always Allow).
+
+أو بلا البرنامج، سطر واحد في Terminal لكل تطبيق:
+  curl -fsSL https://raw.githubusercontent.com/hamzamunibwork/munib-content/main/tools/install.sh | bash -s arabic
+  (مكان arabic: library أو english أو notes أو all. ولتثبيت نسخة الماك أضف بعدها: mac)
+
+كيف يعمل:
+- بعد كل رفع إلى مستودع التطبيق يُجهّز GitHub مشروع الآيباد كاملًا (build-ipad)، فلا يحتاج الماك إلى Node ولا CocoaPods.
+- المثبّت ينزّله، ويبنيه بحسابك في Xcode، ويثبّته على الجهاز الموصول، ويفتحه.
+- مكتبة عبد الحسيب منيب: يستعمل نسختك المحلية من GitHub Desktop إن وُجدت (أسرع).
+- نسخة الماك: تُنزَّل وتُنسخ إلى Applications وتُزال عنها علامة الحظر تلقائيًّا.
+
+تطبيق جديد لاحقًا: يُضاف سطر في tools/apps.txt، فيظهر زرّه في البرنامج وحده بلا تحديث للبرنامج.
