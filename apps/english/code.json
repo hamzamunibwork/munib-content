@@ -1,10 +1,10 @@
 {
  "owner": "1bb2fc9dc8d961208d7955174a614df89df8e6056493d974fcbf57bc06198f98",
- "ver": "2",
- "url": "code/2.bin",
+ "ver": "3",
+ "url": "code/3.bin",
  "shell": "1.1.0",
- "sha": "ea0d1f402772c47b5239989c00bb4292f9a9760782520a9dccbca067af569efc",
- "note": "أيقونة الإعدادات وأدوات القلم",
+ "sha": "82c6245198b73b643484ae1cb1f15e537e9e4bcae245d1df5b6c9de430012c57",
+ "note": "واجهة جديدة للرئيسة، والسحب بين الدروس، وفهرس أسهل",
  "data": [
   "conv.js",
   "dict.js",
