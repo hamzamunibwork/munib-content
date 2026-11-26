@@ -1,0 +1,16 @@
+{
+ "owner": "1bb2fc9dc8d961208d7955174a614df89df8e6056493d974fcbf57bc06198f98",
+ "ver": "2",
+ "url": "code/2.bin",
+ "shell": "1.1.0",
+ "sha": "ea0d1f402772c47b5239989c00bb4292f9a9760782520a9dccbca067af569efc",
+ "note": "أيقونة الإعدادات وأدوات القلم",
+ "data": [
+  "conv.js",
+  "dict.js",
+  "furuq.js",
+  "phrases.js",
+  "reading.js",
+  "reading_ps.js"
+ ]
+}

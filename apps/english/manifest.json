@@ -1,0 +1,29 @@
+{
+ "books": [
+  {
+   "id": "p1",
+   "lang": "ar",
+   "ver": 1,
+   "hash": "6608833a4f2a63af",
+   "url": "books/ar_p1.bin",
+   "title": "الجزء الأول: المدخل"
+  },
+  {
+   "id": "p1",
+   "lang": "ps",
+   "ver": 1,
+   "hash": "5e8cdd24fda7db03",
+   "url": "books/ps_p1.bin",
+   "title": "لومړۍ برخه: پیلامه"
+  },
+  {
+   "id": "p1",
+   "lang": "fa",
+   "ver": 1,
+   "hash": "b4e607df524ebf4f",
+   "url": "books/fa_p1.bin",
+   "title": "بخش اول: مقدمه"
+  }
+ ],
+ "owner": "1bb2fc9dc8d961208d7955174a614df89df8e6056493d974fcbf57bc06198f98"
+}

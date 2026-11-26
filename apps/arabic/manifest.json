@@ -1,0 +1,69 @@
+{
+ "books": [
+  {
+   "id": "p1",
+   "lang": "ar",
+   "ver": 1,
+   "hash": "2a27b0b8355b03c4",
+   "url": "books/ar_p1.bin",
+   "title": "الجزء الأول: المدخل"
+  },
+  {
+   "id": "p1",
+   "lang": "ps",
+   "ver": 1,
+   "hash": "45fbd8369adb80fd",
+   "url": "books/ps_p1.bin",
+   "title": "لومړۍ برخه: پیلامه"
+  },
+  {
+   "id": "p1",
+   "lang": "fa",
+   "ver": 1,
+   "hash": "903602267c4c0f5c",
+   "url": "books/fa_p1.bin",
+   "title": "بخش اول: مقدمه"
+  },
+  {
+   "id": "p1",
+   "lang": "en",
+   "ver": 1,
+   "hash": "7adb6c900070a12f",
+   "url": "books/en_p1.bin",
+   "title": "Part One: Introduction"
+  },
+  {
+   "id": "p6",
+   "lang": "ar",
+   "ver": 1,
+   "hash": "f63c8d10afc03dd8",
+   "url": "books/ar_p6.bin",
+   "title": "الجزء السادس: الأدب القديم"
+  },
+  {
+   "id": "p6",
+   "lang": "ps",
+   "ver": 1,
+   "hash": "b9825b071899576d",
+   "url": "books/ps_p6.bin",
+   "title": "الجزء السادس: الأدب القديم"
+  },
+  {
+   "id": "p6",
+   "lang": "fa",
+   "ver": 1,
+   "hash": "b9825b071899576d",
+   "url": "books/fa_p6.bin",
+   "title": "الجزء السادس: الأدب القديم"
+  },
+  {
+   "id": "p6",
+   "lang": "en",
+   "ver": 1,
+   "hash": "b9825b071899576d",
+   "url": "books/en_p6.bin",
+   "title": "الجزء السادس: الأدب القديم"
+  }
+ ],
+ "owner": "1bb2fc9dc8d961208d7955174a614df89df8e6056493d974fcbf57bc06198f98"
+}
