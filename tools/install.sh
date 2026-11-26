@@ -26,7 +26,7 @@ if [ "$APP" = "setup" ]; then
 on run
 	set base to "https://raw.githubusercontent.com/hamzamunibwork/munib-content/main/tools"
 	try
-		set raw to do shell script "curl -fsSL " & base & "/apps.txt?t=$(date +%s) | grep -v '^#' | awk -F'|' '{print $1\"|\"$2}'"
+		set raw to do shell script "curl -fsSL '" & base & "/apps.txt' | grep -v '^#' | awk -F'|' '{print $1\"|\"$2}'"
 	on error
 		display dialog "لا يوجد اتصال بالإنترنت." buttons {"حسنًا"} with title "مثبّت تطبيقات منيب"
 		return
@@ -59,7 +59,7 @@ on run
 	end if
 	tell application "Terminal"
 		activate
-		do script "curl -fsSL " & base & "/install.sh?t=$(date +%s) | bash -s " & k & " " & t
+		do script "curl -fsSL '" & base & "/install.sh' | bash -s " & k & " " & t
 	end tell
 end run
 APPLESCRIPT
