@@ -155,6 +155,8 @@ say "Downloading the latest iPad project..."
 dl "$ITAG" "$IASSET" "$W/dl-$KEY" || die "The iPad project is not ready yet. On GitHub open the repo > Actions > build-ipad > Run workflow, wait for the green tick, then run again."
 rm -rf "$SRCD" && mkdir -p "$SRCD" && unzip -oq "$W/dl-$KEY/$IASSET" -d "$SRCD" || die "Could not unpack the project."
 cd "$SRCD" || die "Folder error."
+# Xcode الحديث لا يقبل مكتبات تطلب iOS أقدم من 15، فيُرفع الحد الأدنى فيها إلى 15
+find . -name project.pbxproj -exec sed -i '' -E 's/IPHONEOS_DEPLOYMENT_TARGET = (1[0-4]|[0-9])(\.[0-9]+)*;/IPHONEOS_DEPLOYMENT_TARGET = 15.0;/g' {} + 2>/dev/null
 if [ "$KIND" = "cap" ]; then BLD=(-workspace "$PROJ"); else BLD=(-project "$PROJ"); fi
 say "Building $NAME for $DNAME (1-3 minutes)... If the Mac asks for its password, type it and press Always Allow."
 xcodebuild "${BLD[@]}" -scheme "$SCHEME" -configuration Debug -destination 'generic/platform=iOS' \
